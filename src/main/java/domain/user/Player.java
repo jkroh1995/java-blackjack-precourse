@@ -24,4 +24,19 @@ public class Player {
 
     // TODO 추가 기능 구현
 
+    public String getName() {
+        return name;
+    }
+
+    public List<Card> getCardList(){
+        return cards;
+    }
+
+    public String getCards() {
+        return cards.toString().substring(1,cards.toString().length()-1);
+    }
+
+    public double getBettingMoney(){
+        return bettingMoney;
+    }
 }

@@ -18,4 +18,11 @@ public class Dealer {
     }
 
     // TODO 추가 기능 구현
+    public List<Card> getCardList() {
+        return cards;
+    }
+
+    public String getCards(){
+        return cards.toString().substring(1,cards.toString().length()-1);
+    }
 }
